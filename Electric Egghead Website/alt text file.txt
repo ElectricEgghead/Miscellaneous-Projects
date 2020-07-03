@@ -1,0 +1,111 @@
+Alt text file
+
+--
+
+URL to back to top button:
+
+icon - http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image-2-TRANSPARENT-background-icon.ico
+
+http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image.png
+
+---
+
+COMPUTERS AND BDSM BLOG POST
+
+TBD
+
+
+
+---
+RANDOM FACTS BLOG POST
+
+https://my.minecraft.net/en-us/store/minecraft/#register
+https://store.steampowered.com/app/413150/Stardew_Valley/
+https://store.steampowered.com/app/48000/LIMBO/
+https://store.steampowered.com/app/424840/Little_Nightmares/
+https://store.steampowered.com/app/966330/Flower/
+
+---------------
+MOTIVATION BLOG POST
+
+Photo by Charles Eugene on Unsplash
+
+Image: Mermaid Man (in a towel) running out of the bathroom. He's busted down the door on top of Barnacle Boy. Sad face, BB.
+
+
+sunkissalba food - https://www.youtube.com/watch?v=j15lmDRaBlI&t=2s
+
+CHILD THEME BLOG POST
+
+Image showing error message when attempting to install child theme's zip file in Wordpress. Error message says, "Destination folder already exists, then shows a link to my Hostgator's cPanel, where I created the child theme file.
+
+Image showing system properties. Use the information after system type to find what kind of operating system your computer has.
+
+Image showing an older male farmer in overalls, a plaid shirt, and a hat, squinting against the sun's light while looking into the camera. He has a small smile on his face. Behind the man is a lush, green, seemingly endless plane of grass. Text at top: "When you write 10 lines of code without searching on Google." Text at bottom:"It ain't much, but it's honest work."
+
+Image showing where functions.php file is in WordPress.
+
+
+Left side: "Step-by-Step: How to create a wordpress child theme as an indie game developer". Right side: Black woman using a computer.
+----------
+
+electric egghead logo. Shows empty rectangle with the words, Electric Egghead, with yellow egg-shaped logo with heterochromic eyes and crooked glasses.
+
+Image of video game, Awol FX. Tagline: "Can you turn the world on?" This image is a mixture of four images: mountains, a large fantasy book, an ocean wave, and a floating island.
+
+
+Left side: A magnifying glass with some lines to signify things being searched for. Right side: The words "Code Review".
+
+Reddit logo. Smiling alien. "Yes, we come in peace. Well, sometimes. Depends on what we ate for breakfast."
+
+Image: Black background with white text. Says, "Codestriker. Web-based code reviewing."
+
+Image: Blue background with white text. Says, "Gerrit Code Review".
+
+Left side: Blue bowl-like thing with an empty middle. Right side: Words, "Crucible".
+
+The infamous octopus cat of GitHub. Black background with a white circle around the silhouette of the catopus.
+
+Image shows pricing structure of GitHub's four tiers, as of May 2020:  #1 Free (Basics for teams and developers)  Unlimited public/private repositories Unlimited collaborators 2,000 Actions minutes/month Free for public repositories 500MB of GitHub Packages storage Free for public repositories Community Support $0 /month  #2 Team (Advanced collaboration and support for teams)  Unlimited public/private repositories Required reviewers 3,000 Actions minutes/month Free for public repositories 2GB of GitHub Packages storage Free for public repositories Code owners $4 per user/month  #3 Enterprise (Security, compliance, and flexible deployment for enterprises)  ←Everything included in Team SAML single sign-on 50,000 Actions minutes/month Free for public repositories 50GB of GitHub Packages storage Free for public repositories Advanced auditing $21 per user/month  #4 GitHub One (All of our best tools, support, and services)  ←Everything included in Enterprise Community-powered security Actionable metrics 24/7 support Continuous learning. Click the "learn more" button on the website to see the GitHub One pricing information.
+
+Left side: Image of a mechanism with cogs. Right side: Words, "_pullrequest".
+
+Monthly PullRequest pricing as of May 2020. Image shows: #1 INDIVIDUAL For individual developers on non-commercial projects. $299 per month. Up to 5000 lines of code. 48 hour review turn-around target. One Week Trial Available. FEATURES Integrations with GitHub, GitLab, and Bitbucket cloud. Full access to network of best-in-class engineer reviewers. Email, Community & Chat Support. #2 PRO 1 SEAT On-demand code review for teams of all sizes. $699 per month. Unlimited lines. 24 hour review turn-around target. Two week trial available. INDIVIDUAL FEATURES PLUS Code quality and review metrics for your team. Annual code-level security reporting. Premium Customer Success team. #3 ENTERPRISE Suitable for Enterprise or regulated industry. Contact Us we'll create a solution. Unlimited lines. Faster service level agreements available. Custom POCs available. PRO FEATURES PLUS On-premise installation & support for GitHub, GitLab, and Bitbucket. SAML Single Sign-on. API Access for custom integrations.
+
+Annual PullRequest pricing as of May 2020 Image shows: #1 INDIVIDUAL For individual developers on non-commercial projects. $99 per month, billed annually. Up to 5000 lines of code. 48 hour review turn-around target. One Week Trial Available. FEATURES Integrations with GitHub, GitLab, and Bitbucket cloud. Full access to network of best-in-class engineer reviewers. Email, Community & Chat Support. #2 PRO 1 SEAT On-demand code review for teams of all sizes. $499 per month, billed annually. Unlimited lines. 24 hour review turn-around target. Two week trial available. INDIVIDUAL FEATURES PLUS Code quality and review metrics for your team. Annual code-level security reporting. Premium Customer Success team. #3 ENTERPRISE Suitable for Enterprise or regulated industry. Contact Us we'll create a solution. Unlimited lines. Faster service level agreements available. Custom POCs available. PRO FEATURES PLUS On-premise installation & support for GitHub, GitLab, and Bitbucket. SAML Single Sign-on. API Access for custom integrations.
+
+Left side: Arc(). Right side: formerly codementor x. Blue background with white text.
+
+Left side: A dashed line circle. Right side: The word, "Codacy". Blue background with white text.
+
+Codacy pricing image: #1 Pro On the Cloud deployment for growing teams  15 /month Per user with a yearly plan Or $18 billed monthly  14-day trial  Private and public repositories  Higher priority and faster analysis  Priority support  Free for open source teams  #2 Self-hosted For large businesses looking for administration tools and extra security  14-day trial  Everything from Pro plus  Service Level Agreement (SLA)  For GitHub Enterprise, Bitbucket server and GitLab self-managed  Extra security checks  Self-hosted servers
+
+
+Photo by Christina @ wocintechchat.com on Unsplash
+
+
+LINKS
+https://codereview.stackexchange.com/
+https://www.reddit.com/r/codereview
+https://www.reddit.com/r/reviewmycode/
+https://www.reddit.com/r/critiquemycode
+https://www.reddit.com/r/askprogramming
+https://www.reddit.com/r/learnprogramming
+https://www.reddit.com/r/coding
+https://www.reddit.com/r/cpp
+https://www.reddit.com/r/c#
+https://www.reddit.com/r/java
+http://codestriker.sourceforge.net
+https://www.gerritcodereview.com/index.html
+Git explained - https://docs.google.com/presentation/d/1IQCRPHEIX-qKo7QFxsD3V62yhyGA9_5YsYXFOiBpgkk/edit
+Gerrit explained - https://docs.google.com/presentation/d/1C73UgQdzZDw0gzpaEqIC6SPujZJhqamyqO1XOHjH-uk/edit
+https://www.atlassian.com/software/crucible
+https://github.com/pricing
+https://github.github.com/gfm/
+https://www.pullrequest.com
+Arc() - https://www.codementor.io/freelance-developers/code-review
+https://www.codacy.com
+https://owasp.org/www-project-top-ten/
+
+http://codestriker.sourceforge.net/
+https://www.gerritcodereview.com/index.html

@@ -1,0 +1,345 @@
+/* 7/3/20 - 4:45 am *
+ 
+/* HEADER - sticky */
+
+#site-header {
+background: #1c1c1c;
+height: 100px;
+z-index:170;
+margin: 0 auto;
+/* border-bottom: 2px solid #fff; */
+width: 100%;
+position:fixed;
+top:1;
+left:0;
+right:0;
+text-align: center;
+}
+
+/* primary menu list */
+
+#site-header .primary-menu a {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+#site-header .sub-menu a:hover { 
+	color: #fefc6b;
+	background-color: #000;
+}
+
+/* LOGO */
+
+.site-logo img {
+	max-height: 70%;
+	max-width: 95%;
+	position: absolute;
+  top: .90rem;
+  left: .5rem; 
+	}
+
+ .site-logo img:hover {
+	max-height: 80%;
+	position: absolute;
+  top: 0.85rem;
+  left: .5rem; 
+	}
+
+/* FOOTER */
+
+#site-footer {
+  background: #1c1c1c;
+  position: scrollbar;
+  bottom: 0;
+  width: 100%;
+  font-size: 50%;
+  padding: 1em 0em;
+}
+
+div #outer-wrap, div #wrap {
+	height: 100%;
+}
+
+/* holds social icons
+.footer-top {
+	display:none;
+	border-top: 4px solid #fefc6b;
+}
+
+.social-icons a { 
+	background: #fefc6b;
+}
+
+ */
+
+.footer-widgets-outer-wrapper {
+	padding: 0px;
+  border-bottom-width: 0px;
+	}
+
+/* BLOG CONTENT */
+
+.entry-content {
+	padding-top: 2em;
+	font-family: 'Lato', sans-serif;
+}
+
+.entry-title, .entry-header {
+	display: none;
+}
+
+.post-inner.thin {
+	/* tk add padding */
+}
+
+.singular .featured-media::before {
+	display: none;
+
+}
+
+.featured-media img {
+    margin-top: 6em;
+}
+
+/*
+ 
+ul.primary-menu li {
+	background-color: #fff;
+	color: #000;
+	
+}
+*/
+
+/* NAVIGATION MENU */
+
+/* removes white arrow for child submenu */
+
+.primary-menu ul::before,
+.primary-menu ul::after {
+	display: none;
+}
+
+.primary-menu ul::before {
+	height: 1rem;
+	left: 0;
+	right: 0;
+}
+
+.primary-menu ul::after {
+	border: 4rem solid transparent;
+	border-bottom-color: transparent;
+	background-color: #000;
+	right: 3rem;
+}
+*/
+
+/* wrapper of child primary menu links. Not container. */
+
+.primary-menu ul a {
+	background-color: transparent;
+	border-radius: 25px solid;
+	color: #000;
+	display: block;
+	padding: 3px 8px;
+	width: 100%; /* inside child sub menu CHANGE */
+}
+
+/* container for sub menu links */
+
+body:not(.overlay-header) .primary-menu ul {
+	display:block;
+	background-color: #1c1c1c;
+	top: 25px;
+	padding: auto auto;
+	width: auto;
+	height: auto;
+}
+
+/* remove arrow next to primary menu links */
+
+.primary-menu .icon {
+	display: none;
+}
+
+/* specify width of each items submenu 
+
+.nav-main .sf-menu .menu-item-37 ul {    min-width: 260px;
+}
+.nav-main .sf-menu .menu-item-754 ul {
+    min-width: 120px;
+}
+*/
+
+/*  AWOL FX LINK */
+#menu-item-210 {
+	width: 130%;
+	padding-right: 2.2em;
+}
+
+/*  SOCIAL LINKS SUBMENU */
+#menu-item-515 {
+	display: inline;
+}
+
+/*  SEARCH ICON */
+
+#menu-item-1302 a:hover {
+	color: #fefc6b;
+	background-color: #000;
+}
+
+/* TO-THE-TOP BUTTON */
+
+.topbutton {
+     padding: .3em .5em;
+	   border-radius: .5em;
+   	 background-color: #1c1c1c;
+     width:auto;
+     position:fixed;
+     right:5px;
+     bottom:5px;
+     z-index:1;
+     /* content: url("http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image-2-TRANSPARENT-background.png"); */
+	 background-repeat:no-repeat;
+	 display: none;
+}
+
+/*  SEARCH WIDGET AND FOUND TEXT */
+
+.search-form {
+	margin-top: .52em;		
+}
+
+.search-form .search-field {
+	padding: .1em .8em;
+	font-size: .6em;
+	margin-right: -1em;
+}
+
+.search-form .search-submit {
+	height: 1.8em;	
+}
+
+/* Remove "found search request" area */
+
+.archive-header-inner.section-inner.medium {
+
+}
+
+.archive-header.has-text-align-center.header-footer-group {
+	display: none;
+}
+
+/* MEDIA QUERIES */
+
+.toggle-inner {
+	margin-top: 3.5rem;
+	height: .5rem;
+	width: 2.5rem;
+}
+
+@media (min-width: 992px) {
+	.toggle-inner {
+		margin-top: 0;
+		padding-bottom: 2.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.toggle-inner {
+		float: right;
+	}
+}
+
+@media (min-width: 992px) {
+.toggle.search-toggle.desktop-search-toggle {
+		padding: 0 2rem;
+	}	
+}
+
+@media (min-width: 992px) {
+	.search-modal-inner.modal-inner {
+		height: 80px;
+	}
+}
+
+/* ADD three lines = snazzy... */
+
+.toggle-inner svg.svg-icon{
+	opacity: 1;
+}
+
+.toggle-text {
+	display: none;
+	margin-top: 20%;
+	text-decoration: none;
+}
+
+.toggle.close-nav-toggle.fill-children-current-color .toggle-text {
+	display: none;
+}
+
+.modal-menu.reset-list-style {
+	color: #f6f6f6;
+}
+
+/* BACKGROUND PAGE COLOR */
+
+/* tk set to #1c1c1c.
+
+/* ADD three lines = snazzy... */
+
+.toggle-inner svg.svg-icon{
+	display: block;
+	opacity: .5;
+}
+
+.toggle-text {
+	display: none;
+	margin-top: 20%;
+	text-decoration: none;
+}
+
+.toggle.close-nav-toggle.fill-children-current-color .toggle-text {
+	display: none;
+}
+
+.modal-menu.reset-list-style {
+	color: #f6f6f6;
+}
+
+/* BACKGROUND PAGE COLOR */
+
+/* tk set to #1c1c1c.
+  
+ 
+  
+  
+
+/*------------------------------
+ * change height of header
+.inside-header {
+padding: 20px 40px 20px 40px;
+}
+*/
+
+/* MOBILE MENU
+
+.dashicons{background-color:#394999;color:white}
+.nav-toggle .toggle-inner{padding-top:0}
+*/
+
+/* TO-THE-BOTTOM BUTTON
+
+.bottombutton {
+	 height:50px;
+     width:50px;
+     position:fixed;
+     right:15px;
+     bottom:50px;
+     z-index:1;
+     /* content: url("http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image-2-TRANSPARENT-background.png");
+	 background-repeat:no-repeat;
+	 display: none;
+}
+*/
