@@ -39,12 +39,6 @@ a:focus, .topbutton:hover {
 	outline: #99d9ea solid 3px;
 }
 
-.modal-menu .primary-menu a:hover {
-	text-decoration: none;
-	background-color: #000;
-	color: #f6f6f6;
-}
-
 .modal-menu .sub-menu a:hover {
 	text-decoration: none;
 	background-color: #fefc6b;
@@ -252,8 +246,6 @@ input.search-submit {
 /* -------------------- 
 TO-THE-TOP BUTTON
 --------------------  */
-.topbutton a:hover
-
 /* itsy bitsy button?? - check on larger mobile tk */
  
  .topbutton {
