@@ -1,0 +1,735 @@
+/* 7/17/20 - 6:00 pm
+
+/* --------------------
+GLOBAL STYLES
+--------------------  */
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1 {
+	letter-spacing: .08em;
+}
+
+h2, h3, h4, h5, .entry-content {
+	letter-spacing: .1em;
+}
+
+.blog-toc {
+	color: #000;
+	border: solid 1px #666666;
+	padding: 1em 1em;
+	background: #fcfcfc;
+	box-shadow: 0px 0px 10px 1px rgba(68, 68, 68, .5);
+}
+
+/*
+a {
+	 good to use to center nav menu tk
+	 outline: #fefc6b solid 1px;
+}
+*/
+
+a:focus, .topbutton:hover { 
+	outline: #99d9ea solid 3px;
+}
+
+.modal-menu .primary-menu a:hover {
+	text-decoration: none;
+	background-color: #000;
+	color: #f6f6f6;
+}
+
+.modal-menu .sub-menu a:hover {
+	text-decoration: none;
+	background-color: #fefc6b;
+	color: #1c1c1c;
+}
+
+/* --------------------
+ACCESSIBILITY specific
+--------------------  */
+
+/*
+.skip-link screen-reader-text {
+	tk doesn't work properly
+	 * name search button
+	 * name subscribe form email area
+	 * name subscribe button
+	 * set skip to content to go to .entry-content, not nav links then blog content - researchtk - using Narrator
+
+}
+*/
+
+/* --------------------
+ HEADER - sticky 
+--------------------  */
+	#site-header {
+	background: #1c1c1c;
+	height: 12rem;
+	z-index:170;
+	margin: 0 auto;
+	/* border-bottom: 2px solid #fff; */
+	width: 100%;
+	position:fixed;
+	top:1;
+	left:0;
+	right:0;
+	text-align: center;
+}
+.site-logo img {
+	max-height: 70%;
+	max-width: 95%;
+	position: absolute;
+  top: .90rem;
+	left: 1rem;
+}	
+
+.toggle-inner {
+	margin-top: 6.5rem;
+	height: .5rem;
+	width: 3rem;
+}
+
+.toggle.search-toggle.desktop-search-toggle {
+		padding: 0 3rem;
+	}
+
+/* ADD three lines = snazzy... */
+
+.toggle-inner .svg-icon {
+	opacity: 1;
+}
+
+.svg-icon:hover{
+	color: #1c1c1c;
+	background: #fefc6b;
+}
+
+.toggle-text {
+	display: none;
+	margin-top: 20%;
+	text-decoration: none;
+}
+
+.toggle.close-nav-toggle.fill-children-current-color {
+	padding-bottom: 5rem;
+	visibility: hidden;
+}
+	
+
+/* -------------------- 
+SEARCH FORMS
+--------------------  */
+
+#search-form-1.search-field {
+	font-size: .7em;
+	height: 12rem;
+	}
+
+#search-form-2.search-field {
+		margin-top: 60%;
+		font-size: .8em;
+	}
+	
+input.search-submit {
+		display: none;
+	}
+	
+.mobile-menu {
+	padding-top: 4rem;
+}
+
+
+/* -------------------- 
+NAVIGATION MENU
+--------------------  */
+
+#site-header .primary-menu a {
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+#site-header .sub-menu a:hover { 
+	background-color: #fefc6b;
+	color: #1c1c1c;
+}
+
+/* removes white arrow for child submenu */
+
+.primary-menu ul::before,
+.primary-menu ul::after {
+	display: none;
+}
+
+/* container for sub menu links */
+
+body:not(.overlay-header) .primary-menu ul {
+	display: block;
+	background-color: #1c1c1c;
+	top: 2rem;
+	width: auto;
+	height: auto;
+}
+
+/* remove arrow next to primary menu links */
+
+.primary-menu .icon {
+	display: none;
+}
+
+/*  AWOL FX LINK */
+#menu-item-210 {
+	width: 130%;
+	padding-right: 2.2em;
+}
+
+/*  SOCIAL LINKS SUBMENU */
+#menu-item-515 {
+	display: inline;
+}
+
+/* Remove "found search request" area
+*/
+.archive-header-inner.section-inner.medium {
+/* tk */
+}
+
+.archive-header.has-text-align-center.header-footer-group {
+	display: none;
+}
+
+.menu-bottom {
+	/* TK margin-bottom: -1rem;*/
+}
+
+button.sub-menu-toggle {
+	border-left: none;
+}
+
+/* -------------------- 
+BLOG CONTENT
+--------------------*/
+	
+@media (max-width: 600px) {
+	.entry-content {
+	margin-top: 4rem;
+	font-family: 'Lato', sans-serif;
+}
+	
+.featured-media img {
+    margin-top: 5.5em;
+	}
+}
+
+.post-inner.thin{
+	display: inline;
+}
+
+.entry-title, .entry-header {
+	display: none;
+}
+
+.singular .featured-media::before {
+	display: none;
+}
+
+/* 404 and NOT FOUND page */
+
+input.search-submit {
+	display: none;
+	}
+
+.section-inner.thin.error404-content {
+	padding-top: 4rem;
+}
+
+/* -------------------- 
+TO-THE-TOP BUTTON
+--------------------  */
+.topbutton a:hover
+
+/* itsy bitsy button?? - check on larger mobile tk */
+ 
+ .topbutton {
+	padding: 0 .3rem 0 .3rem;
+	border-radius: .5em;
+  background-color: #1c1c1c;
+  position:fixed;
+  right: .5rem;
+  bottom: .5rem;
+  z-index:1;
+  /* content: url("http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image-2-TRANSPARENT-background.png");
+	 background-repeat:no-repeat;
+	 display: none; */
+}
+
+.svg-inline--fa {
+	margin-left: .4em;
+	display: block;
+	font-size: 2rem;
+}
+
+.to-top-text {
+	font-size: 1em;	
+}
+
+/* entire back to top button is outlined - accessible */
+
+.topbutton a {	
+	outline: none;
+	text-decoration: none;
+}
+
+/* TABLET & DESKTOP BACK TO TOP BUTTON */
+
+@media (min-width: 601px) {
+.topbutton {
+	
+	padding: .5rem .5rem;
+	border-radius: .5em;
+  background-color: #1c1c1c;
+  position:fixed;
+  right: .6rem;
+  bottom: .7rem;
+  z-index:1;
+  /* content: url("http://www.electricegghead.com/wp-content/uploads/2020/06/back-to-top-button-image-2-TRANSPARENT-background.png");
+	 background-repeat:no-repeat;
+	 display: none; */
+}
+
+.svg-inline--fa {
+	margin-left: .4em;
+	display: block;
+	font-size: 2.5rem;
+}
+}
+
+/* -------------------- 
+MOBILE
+--------------------  */
+/* figure out best accessibility solution tk */
+
+nav.mobile-menu a {
+	color: #f6f6f6;
+	text-decoration: none;
+} 
+
+.sub-menu {
+	color: #fefc6b;
+	background: #1c1c1c;
+	text-decoration: none;
+}
+
+/*
+ * nav.mobile-menu svg.svg-icon {
+	display: none;
+}
+*/
+
+/* --------------------
+FOOTER - sticky and scrollable :)
+--------------------  */
+
+#site-content {
+	font-family: 'Lato', sans-serif;
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+}
+
+/*
+ @media (max-width: 600px) {
+	#site-content {
+	font-family: 'Lato', sans-serif;
+  min-height: 100%;
+  /* equal to footer height 
+  margin-bottom: -50px;
+}
+}
+*/
+
+#site-content:after {
+  content: "";
+  display: block;
+}
+#site-footer, #site-content:after {
+  height: 50px; 
+}
+
+#site-footer {
+	background: #1c1c1c;
+  font-size: 50%;
+  padding: 1em 0em;
+}
+
+/* CENTER FOOTER TEXT
+.footer-copyright {
+	text-align: center !important;
+}
+*/
+
+@media (min-width: 601px) {
+	#site-footer {
+  font-size: 55%;
+		letter-spacing: .08em;
+}
+}
+
+@media (min-width: 1000px) {
+	#site-footer {
+  font-size: 50%;
+	letter-spacing: .08em;
+}
+}
+
+#site-footer a {
+	background: #1c1c1c;
+	color: #f6f6f6;
+	text-decoration: none;
+}
+
+#site-footer a:hover {
+	background: #1c1c1c;
+	color: #fefc6b;
+	text-decoration: none;
+}
+
+.footer-widgets-outer-wrapper {
+	width: 95%;
+	padding: 0px;
+  border-bottom-width: 0px;
+	}
+
+.footer-widgets.column-one {
+	width: 100%;
+}
+
+/* -------------------- 
+SUBSCRIBE FORM
+--------------------  */
+
+/* subscribe title - get updates
+ .widget-title.subheading.heading-size-3 {
+	margin-top: 1%;
+	font-size: .7em;
+	margin-bottom: 0;
+	
+}
+*/
+.tnp-widget-minimal input.tnp-email {
+	margin-top: 5%;
+	width: 65%;
+	display: inline;
+	height: 2.5rem;
+}
+
+.tnp-widget-minimal input.tnp-submit {
+	text-decoration: none;
+  margin-top: 5%;
+	font-size: .8rem;
+	height: 2.5rem;
+	width: 35%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #b97a57;
+	float: right;
+	display: inline;
+}
+	
+	.tnp-widget-minimal input.tnp-submit:hover {		
+	text-decoration: none;
+  margin-top: 5%;
+	font-size: .8rem;
+	height: 2.5rem;
+	width: 35%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #99d9ea;
+	float: right;
+	display: inline;
+}
+
+/* TABLET - SUBSCRIBE */
+	
+@media (min-width: 601px) {
+.tnp-widget-minimal input.tnp-email {
+	margin-top: 2%;
+	width: 70%;
+	display: inline;
+	height: 2.5rem;
+}
+
+.tnp-widget-minimal input.tnp-submit {
+	text-decoration: none;
+  margin-top: 2%;
+	margin-right: .96em;
+	font-size: 1rem;
+	height: 2.5rem;
+	width: 27.9%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #b97a57;
+	float: right;
+	display: inline;
+}
+	
+.tnp-widget-minimal input.tnp-submit:hover {
+	text-decoration: none;
+  margin-top: 2%;
+	margin-right: .96em;
+	font-size: 1rem;
+	height: 2.5rem;
+	width: 27.9%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #99d9ea;
+	float: right;
+	display: inline;align-content
+	
+	}
+}
+/* END TABLET SUBSCRIBE */
+
+
+/* DESKTOP - SUBSCRIBE */
+
+@media (min-width: 1000px) {
+.tnp-widget-minimal input.tnp-email {
+	margin-top: 1.5%;
+	width: 80%;
+	display: inline;
+	height: 2.5rem;
+	float: left;
+}
+
+.tnp-widget-minimal input.tnp-submit {
+	text-decoration: none;
+  margin-top: 1.5%;
+	height: 2.5rem;
+	width: 18.5%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #b97a57;
+	float: right;
+	display: inline;
+}
+	
+	.tnp-widget-minimal input.tnp-submit:hover {
+ text-decoration: none;
+  margin-top: 1.5%;
+	height: 2.5rem;
+	width: 18.5%;
+  border-color: #ddd;
+	color: #000;
+  background-color: #99d9ea;
+	float: right;
+	display: inline;
+}
+	/* END DESKTOP SUBSCRIBE */
+}
+
+/* -------------------- 
+MEDIA QUERIES...
+--------------------  */
+
+/* ITSY BITSY MOBILE DEVICES */
+
+@media (max-width: 360px) {
+	#site-header {
+	background: #1c1c1c;
+	height: 8rem;
+	z-index:170;
+	margin: 0 auto;
+	width: 100%;
+	position:fixed;
+	top:1;
+	left:0;
+	right:0;
+	text-align: center;
+}
+	
+	.toggle-inner {
+		margin-top: 100%;
+		display: inline;
+	}
+	
+	.search-modal-inner.modal-inner {
+		height: 8rem;
+	}
+	
+	#search-form-1.search-field {
+	  font-size: 1em;
+		height: 8rem;
+	}
+	
+	#search-form-2.search-field {
+		margin-top: 20%;
+	}
+	
+.site-logo img {
+	max-height: 90%;
+	width: 100%;
+	position: absolute;
+  top: .5rem;
+	}
+	
+.mobile-menu {
+	padding-top: 2rem;
+}
+	
+.featured-media img {
+    margin-top: 6em;
+}
+	
+.entry-content {
+	margin-top: 2em;
+	font-family: 'Lato', sans-serif;
+}				
+} /* END ITSY BITSY MOBILE MEDIA QUERIES */
+
+/* ---- TABLET DEVICES ---- */
+
+@media (min-width: 601px) {
+	#site-header {
+	background: #1c1c1c;
+	height: 8rem;
+	z-index:170;
+	margin: 0 auto;
+	/* border-bottom: 2px solid #fff; */
+	width: 100%;
+	position:fixed;
+	top:1;
+	left:0;
+	right:0;
+	text-align: center;
+}
+	
+	.toggle-inner {
+		margin-top: 5%;
+		display: inline;
+	}
+	
+	.search-modal-inner.modal-inner {
+		height: 8rem;
+	}
+	
+	#search-form-1.search-field {
+	  font-size: 1em;
+		height: 8rem;
+	}
+	
+	#search-form-2.search-field {
+		margin-top: 20%;
+	}
+	
+	/* menu button - tablet
+	.toggle nav-toggle mobile-nav-toggle {
+		
+	/* search button - tablet
+	}
+	.toggle.search-toggle.mobile-search-toggle {
+		float: right;
+	}
+	*/
+	
+.site-logo img {
+	max-height: 90%;
+	width: 60%;
+	position: absolute;
+  top: .5rem;
+  left: 11rem; 
+	}
+	
+.mobile-menu {
+	padding-top: 2rem;
+}
+
+.featured-media img {
+    margin-top: 6em;
+}
+	
+.entry-content {
+	margin-top: 2em;
+	font-family: 'Lato', sans-serif;
+}
+	
+@media (min-width: 601px) and (orientation: landscape) {
+.site-logo img {
+	max-height: 90%;
+	width: 60%;
+	position: absolute;
+  top: .5rem;
+  left: 20%; 
+	}
+}
+				
+} /* END TABLET MEDIA QUERIES */
+
+/* --- DESKTOP DEVICES --- */
+
+@media (min-width: 1000px) {
+#site-header {
+	background: #1c1c1c;
+	height: 8rem;
+	z-index:170;
+	margin: 0 auto;
+	/* border-bottom: 2px solid #fff; */
+	width: 100%;
+	position:fixed;
+	top:1;
+	left:0;
+	right:0;
+	text-align: center;
+}
+	
+.header-navigation-wrapper {
+	margin-top: -1%;
+}
+.site-logo img {
+	height: 75%;
+	width: 25%;
+	position: absolute;
+  top: .85rem;
+  left: 1rem; 
+	}
+		
+.toggle-inner {
+		margin-top: 0;
+		margin-right: 1rem;
+		width: 2rem;
+		padding-bottom: 2.5rem;
+	}
+.toggle-inner:hover {
+		color: #fefc6b;
+		background: #000;
+	}
+	
+#search-form-1.search-field {
+	  font-size: 1em;
+		height: 8rem;
+	}
+	
+#search-form-2.search-field {
+		margin-top: 20%;
+	}
+	
+.search-modal-inner.modal-inner {
+		margin-left: 35rem;
+		filter: brightness(80%);
+	}	
+	
+.featured-media img {
+    margin-top: 6em;
+}
+	
+.entry-content {
+	margin-top: 5em;
+	font-family: 'Lato', sans-serif;
+}
+} /* END DESKTOP MEDIA QUERIES */
